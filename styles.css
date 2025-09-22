@@ -1,0 +1,72 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+/* page basics */
+body {
+   line-height: 1.5;
+   max-width: 960px;
+   background: white;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+/* header */
+header {
+   background: #FFE373;
+   color: black;
+   font-size: 48px;
+   text-align: center;
+   padding: 20px;
+   border: 1px solid black;
+}
+
+/* main article */
+article {
+   width: 960px;
+   text-align: center;
+   background: #BFA230;
+   padding: 20px;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+}
+
+article h2 {
+   font-weight: bold;
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+/* gallery styles */
+div#gallery {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+}
+
+div#gallery figure {
+   flex: 1 1 200px;
+   max-width: 220px;
+   border: 1px solid black;
+   background-color: hsl(129, 23%, 58%);
+   padding: 5px;
+   border-radius: 6px;
+}
+
+div#gallery figure img {
+   display: block;
+   width: 100%;
+   border-bottom: 1px solid black;
+}
+
+div#gallery figure figcaption {
+   text-align: center;
+   font-size: 0.85em;
+   padding: 5px;
+   font-family: Segoe, "Segoe UI", Verdana, sans-serif;
+}
+
